@@ -12,7 +12,7 @@ on:
 env:
   AWS_REGION: us-east-1
   REACT_APP_MOVIE_API_URL: http://a1c35abcd0f154a779a445e29bc4834c-1876388664.us-east-1.elb.amazonaws.com
-  ECR_REPOSITORY: movie-picture-frontend
+  ECR_REPOSITORY: frontend
 
 jobs:
   lint:
